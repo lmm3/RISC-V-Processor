@@ -1,0 +1,627 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.0
+vbancoReg
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1556056885
+!i10b 1
+!s100 6<U[]mGB3mb?_YFUPFb8k2
+If<C>;>P@9J22N3JE7SGLe2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 bancoReg_sv_unit
+S1
+Z3 dC:/Users/lmm3/Documents/Projeto/Risc V Processor
+Z4 w1556051578
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/bancoReg.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/bancoReg.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1556056885.000000
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/bancoReg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/bancoReg.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+nbanco@reg
+vBranchSelector
+R0
+R1
+!i10b 1
+!s100 Z=miMRdCWVaUZF3Kg;CMA1
+IL@91;5FI?[lJU=aaJd1?V3
+R2
+!s105 BranchSelector_sv_unit
+S1
+R3
+w1556052820
+8C:\Users\lmm3\Documents\Projeto\Risc V Processor\BranchSelector.sv
+FC:\Users\lmm3\Documents\Projeto\Risc V Processor\BranchSelector.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Users\lmm3\Documents\Projeto\Risc V Processor\BranchSelector.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\lmm3\Documents\Projeto\Risc V Processor\BranchSelector.sv|
+!i113 1
+R7
+R8
+n@branch@selector
+vcontrolUnit
+R0
+R1
+!i10b 1
+!s100 W]^@knIH]c05MkGoI2QJL3
+Ic3NA=ibWH?1JeQIQnGEad2
+R2
+!s105 controlUnit_sv_unit
+S1
+R3
+w1556056871
+8C:\Users\lmm3\Documents\Projeto\Risc V Processor\controlUnit.sv
+FC:\Users\lmm3\Documents\Projeto\Risc V Processor\controlUnit.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Users\lmm3\Documents\Projeto\Risc V Processor\controlUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\lmm3\Documents\Projeto\Risc V Processor\controlUnit.sv|
+!i113 1
+R7
+R8
+ncontrol@unit
+vcontrolUnit_tb
+R0
+R1
+!i10b 1
+!s100 oIi1Z9<CTOo?LCnk]`c2z2
+IiWBZ3ga[niY8?72IjL9EX1
+R2
+!s105 controlUnit_tb_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/controlUnit_tb.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/controlUnit_tb.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/controlUnit_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/controlUnit_tb.sv|
+!i113 1
+R7
+R8
+ncontrol@unit_tb
+vDeslocamento
+R0
+R1
+!i10b 1
+!s100 EMH`UB_G1bTeiVdfJ^^>l1
+IN6H`hb4MSG5O1AE6cS`4_1
+R2
+!s105 Deslocamento_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/Deslocamento.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/Deslocamento.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/Deslocamento.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/Deslocamento.sv|
+!i113 1
+R7
+R8
+n@deslocamento
+Einstr_reg_risc_v
+R4
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R3
+Z11 8C:/Users/lmm3/Documents/Projeto/Risc V Processor/Instr_Reg_RISC_V.vhd
+Z12 FC:/Users/lmm3/Documents/Projeto/Risc V Processor/Instr_Reg_RISC_V.vhd
+l0
+L49
+V7TD3cNADG8G:ODlTSzz?c1
+!s100 HF;HEc4<o>]o3`Jjc=WPJ2
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1556056886
+!i10b 1
+R6
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/Instr_Reg_RISC_V.vhd|
+Z16 !s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/Instr_Reg_RISC_V.vhd|
+!i113 1
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Abehavioral_arch
+R9
+R10
+DEx4 work 16 instr_reg_risc_v 0 22 7TD3cNADG8G:ODlTSzz?c1
+l68
+L65
+Vo8SZoo^`iHF7`CU3CnhD`1
+!s100 e?bWG@:SnkVC476;`5UQ[1
+R13
+32
+R14
+!i10b 1
+R6
+R15
+R16
+!i113 1
+R17
+R18
+vLoadSizeSelector
+R0
+R14
+!i10b 1
+!s100 _K^WHRRfSgPOBS1PY_8IZ1
+I<cK_Pi6BHmXV0=bfO0BZ?3
+R2
+!s105 LoadSizeSelector_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/LoadSizeSelector.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/LoadSizeSelector.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z19 !s108 1556056886.000000
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/LoadSizeSelector.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/LoadSizeSelector.sv|
+!i113 1
+R7
+R8
+n@load@size@selector
+vMemoria32
+R0
+R14
+!i10b 1
+!s100 Q2gmKA>Pd1H;3=f[e^lb[3
+IN`Tdo;Q1iQ8MC@dDHanh_3
+R2
+!s105 Memoria32_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria32.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria32.sv
+Z20 L0 26
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria32.sv|
+!i113 1
+R7
+R8
+n@memoria32
+vMemoria64
+R0
+R14
+!i10b 1
+!s100 1fz3Mgbi`W1QjWk]9CgUO3
+I?AnM;7m0_MRTgC]C>9kU00
+R2
+!s105 Memoria64_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64.sv
+R20
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64.sv|
+!i113 1
+R7
+R8
+n@memoria64
+vMemoria64_TB
+R0
+R14
+!i10b 1
+!s100 72AVHbdO?LohFBZhGjM2A1
+I^a7_V86ZkklcVFA7;Pg:h1
+R2
+!s105 Memoria64_TB_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64_TB.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64_TB.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64_TB.sv|
+!i113 1
+R7
+R8
+n@memoria64_@t@b
+vmux2in
+R0
+R14
+!i10b 1
+!s100 8ACPc0B_6`GcAIJIzW?Q01
+IMFXLJGl?D6@W?MfG7iB];2
+R2
+!s105 mux2in_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux2in.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/mux2in.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux2in.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux2in.sv|
+!i113 1
+R7
+R8
+vmux3in
+R0
+R14
+!i10b 1
+!s100 :M`CN^n]USYVm5aW;za9n0
+IUhT2Paal:?hj7dcKPi4>M2
+R2
+!s105 mux3in_sv_unit
+S1
+R3
+R4
+8C:\Users\lmm3\Documents\Projeto\Risc V Processor\mux3in.sv
+FC:\Users\lmm3\Documents\Projeto\Risc V Processor\mux3in.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:\Users\lmm3\Documents\Projeto\Risc V Processor\mux3in.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\lmm3\Documents\Projeto\Risc V Processor\mux3in.sv|
+!i113 1
+R7
+R8
+vmux4in
+R0
+Z21 !s110 1556056887
+!i10b 1
+!s100 C^IzM9M76`T[IBPkQzHV42
+I1ILNDBg8^0mh[:<W_@MBc2
+R2
+!s105 mux4in_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux4in.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/mux4in.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux4in.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux4in.sv|
+!i113 1
+R7
+R8
+vmux6in
+R0
+R21
+!i10b 1
+!s100 2zCB=okd6^KM;Mf3CRakF1
+I9>aW_>j:PPd6GDT@ld8hi3
+R2
+!s105 mux6in_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux6in.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/mux6in.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z22 !s108 1556056887.000000
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux6in.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux6in.sv|
+!i113 1
+R7
+R8
+vprocessor
+R0
+R21
+!i10b 1
+!s100 hlG@n1Z_Y1oH3NNe^P[c>1
+ID>Iic1a6h7KGI8gK4=A<43
+R2
+!s105 processor_sv_unit
+S1
+R3
+w1556055218
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/processor.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor.sv|
+!i113 1
+R7
+R8
+vprocessor_TB
+R0
+R21
+!i10b 1
+!s100 <lIUP>2fX_=32K=XZV<`h0
+I5X9EJK]aXm9Vz>fT9_=[a1
+R2
+!s105 processor_TB_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor_TB.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/processor_TB.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor_TB.sv|
+!i113 1
+R7
+R8
+nprocessor_@t@b
+vramOnChip32
+R21
+!i10b 1
+!s100 UaK7Z2?CFjC?UDMYYFK;A0
+IIlF[zfaoU<_;:;OHGKhU@2
+R2
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip32.v
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip32.v
+Z23 L0 40
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip32.v|
+!i113 1
+Z24 o-work work
+R8
+nram@on@chip32
+vramOnChip64
+R21
+!i10b 1
+!s100 cocMaFKEzGMH4F3EWeV]X1
+ISoB@z0m[>XWA?1=zF:F]D2
+R2
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip64.v
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip64.v
+R23
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip64.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip64.v|
+!i113 1
+R24
+R8
+nram@on@chip64
+vregister
+R0
+R21
+!i10b 1
+!s100 bYE8;I>5ooJ_Za^;]7VNI0
+IBaYZjMN9>kN9hW2KHCaiD0
+R2
+!s105 register_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/register.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/register.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/register.sv|
+!i113 1
+R7
+R8
+vsignExtend
+R0
+Z25 !s110 1556056888
+!i10b 1
+!s100 ;Bf8JokoeABCUjn`:K[cT0
+I@kk?FomEFdHQR=R?Td[lb3
+R2
+!s105 signExtend_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend.sv|
+!i113 1
+R7
+R8
+nsign@extend
+vsignExtend_TB
+R0
+R25
+!i10b 1
+!s100 aUg:NT8Fe1EP?C3KaOG_P1
+IOUWZHM0M<Pm7f7@M;US1;1
+R2
+!s105 signExtend_TB_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend_TB.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend_TB.sv
+L0 3
+R5
+r1
+!s85 0
+31
+Z26 !s108 1556056888.000000
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend_TB.sv|
+!i113 1
+R7
+R8
+nsign@extend_@t@b
+vsimulacao32
+R0
+R25
+!i10b 1
+!s100 []8oAA9nhVbgL>KhRS7;23
+ICfj1GH?:FkTC[6QV;_F`l1
+R2
+!s105 simulacao32_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/simulacao32.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/simulacao32.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/simulacao32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/simulacao32.sv|
+!i113 1
+R7
+R8
+vStoreSizeSelector
+R0
+R25
+!i10b 1
+!s100 DdZEjeFF2AYz_6M22Pzd92
+IJ9_jjk=ENR5ez[FTALHSO1
+R2
+!s105 StoreSizeSelector_sv_unit
+S1
+R3
+R4
+8C:/Users/lmm3/Documents/Projeto/Risc V Processor/StoreSizeSelector.sv
+FC:/Users/lmm3/Documents/Projeto/Risc V Processor/StoreSizeSelector.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/StoreSizeSelector.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/StoreSizeSelector.sv|
+!i113 1
+R7
+R8
+n@store@size@selector
+Eula64
+R4
+Z27 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R9
+R10
+R3
+Z28 8C:/Users/lmm3/Documents/Projeto/Risc V Processor/ula64.vhd
+Z29 FC:/Users/lmm3/Documents/Projeto/Risc V Processor/ula64.vhd
+l0
+L54
+VNKCl_dCU9VZRibAm_Jh<Y0
+!s100 gXP0QOjWED7GdgGCHP44]0
+R13
+32
+R25
+!i10b 1
+R26
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lmm3/Documents/Projeto/Risc V Processor/ula64.vhd|
+Z31 !s107 C:/Users/lmm3/Documents/Projeto/Risc V Processor/ula64.vhd|
+!i113 1
+R17
+R18
+Abehavioral
+R27
+R9
+R10
+Z32 DEx4 work 5 ula64 0 22 NKCl_dCU9VZRibAm_Jh<Y0
+l80
+L70
+Z33 V0bJGE`7Xojm<X>7FGncTL1
+Z34 !s100 DoJmkJ?1Y9Zk;7@A7oGLb2
+R13
+32
+R25
+!i10b 1
+R26
+R30
+R31
+!i113 1
+R17
+R18

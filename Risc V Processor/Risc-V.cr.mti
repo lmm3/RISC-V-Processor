@@ -1,0 +1,172 @@
+{C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux2in.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux2in.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2in
+
+Top level modules:
+	mux2in
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Instr_Reg_RISC_V.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Instr_Reg_RISC_V.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Instr_Reg_RISC_V
+-- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Memoria64
+
+Top level modules:
+	Memoria64
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/ula64.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/ula64.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity Ula64
+-- Compiling architecture behavioral of Ula64
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux4in.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux4in.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4in
+
+Top level modules:
+	mux4in
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend_TB.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module signExtend_TB
+
+Top level modules:
+	signExtend_TB
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Deslocamento.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Deslocamento.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Deslocamento
+
+Top level modules:
+	Deslocamento
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/controlUnit_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/controlUnit_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controlUnit_tb
+
+Top level modules:
+	controlUnit_tb
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/BranchSelector.sv} {1 {vlog -work work -sv -stats=none {C:\Users\lmm3\Documents\Projeto\Risc V Processor\BranchSelector.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BranchSelector
+
+Top level modules:
+	BranchSelector
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux6in.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux6in.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux6in
+
+Top level modules:
+	mux6in
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip64.v} {1 {vlog -work work -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip64.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ramOnChip64
+
+Top level modules:
+	ramOnChip64
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/StoreSizeSelector.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/StoreSizeSelector.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module StoreSizeSelector
+
+Top level modules:
+	StoreSizeSelector
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/simulacao32.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/simulacao32.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module simulacao32
+
+Top level modules:
+	simulacao32
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip32.v} {1 {vlog -work work -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/ramOnChip32.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/mux3in.sv} {1 {vlog -work work -sv -stats=none {C:\Users\lmm3\Documents\Projeto\Risc V Processor\mux3in.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux3in
+
+Top level modules:
+	mux3in
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/LoadSizeSelector.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/LoadSizeSelector.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LoadSizeSelector
+
+Top level modules:
+	LoadSizeSelector
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/register.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor_TB.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module processor_TB
+
+Top level modules:
+	processor_TB
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria32.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria32.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/processor.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/controlUnit.sv} {1 {vlog -work work -sv -stats=none {C:\Users\lmm3\Documents\Projeto\Risc V Processor\controlUnit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controlUnit
+
+Top level modules:
+	controlUnit
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/signExtend.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64_TB.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/Memoria64_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Memoria64_TB
+
+Top level modules:
+	Memoria64_TB
+
+} {} {}} {C:/Users/lmm3/Documents/Projeto/Risc V Processor/bancoReg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/lmm3/Documents/Projeto/Risc V Processor/bancoReg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bancoReg
+
+Top level modules:
+	bancoReg
+
+} {} {}}

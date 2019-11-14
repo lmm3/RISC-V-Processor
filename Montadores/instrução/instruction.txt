@@ -1,0 +1,4 @@
+jal x1,2
+addi x2,x0,1
+addi x3,x0,2
+jalr x1,x1,0

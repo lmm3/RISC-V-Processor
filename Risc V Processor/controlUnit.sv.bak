@@ -1,0 +1,111 @@
+
+module controlUnit(
+	input logic clk,
+	input logic reset,
+	output logic PcWrite,
+	output logic IMemRead,
+	output logic DMemRead,
+	output logic IrWrite,
+	output logic WriteReg,
+	output logic LoadRegA,
+	output logic AluSrcA,
+	output logic LoadRegB,
+	output logic [1:0] AluSrcB,
+	output logic MemToReg,
+	output logic LoadAOut,
+	output logic LoadMDR,
+	output logic PCSrc,
+	output logic [2:0] SEFct,
+	output logic [2:0] AluFct,
+	output logic state_out);
+
+	enum bit [1:0] {
+	FETCH = 0, 
+	WAITMEM32 = 1,
+	DECODE = 2
+	} state , next_state;
+
+	parameter SIGN_R = 0, //parametros do SEFct
+	SIGN_I = 1,
+	SIGN_S = 2, 
+	SIGN_SB = 3, 
+	SIGN_U = 4,
+	SIGN_UJ = 5;
+
+	parameter PASS = 3'b000, //parametros da Ula
+	SUM = 3'b001,
+	SUB = 3'b010,
+	AND = 3'b011,
+	INC = 3'b100,
+	NOT = 3'b101,
+	XOR = 3'b110,
+	CMP = 3'b111;
+
+	always_ff @(posedge clk or posedge reset) begin
+		if(reset) 
+			state <= FETCH;
+		else
+			state <= next_state;
+	end
+
+	always_comb begin 
+		case(state)
+			FETCH: begin
+				PcWrite = 0; //Nao escreve em PC
+				IMemRead = 0; //Nao escreve na memoria32
+				DMemRead = 0;
+				IrWrite = 0; //Nao escreve no registrador de instrucao
+				WriteReg = 0; //Nao escreve no registrador destino
+				LoadRegA = 0; //Nao escreve no registrar A
+				AluSrcA = 0; //Seleciona PCOut
+				LoadRegB = 0; //Nao escreve no registrador B
+				AluSrcB = 1; //Seleciona 4 
+				MemToReg = 0;
+				LoadAOut = 0;	//Nao escreve no LoadAOut
+				LoadMDR = 0;
+				PCSrc = 0;	
+				SEFct = SIGN_R; //A entrada do SEFct e igual a saida
+				AluFct = SUM; // Opercao da Ula e soma 
+				next_state = WAITMEM32;	//Prox estado e WAIMEM32
+			end
+			WAITMEM32:	begin
+				PcWrite = 1;
+				IMemRead = 0;								DMemRead = 0;
+				DMemRead = 0;
+				IrWrite = 1;
+				WriteReg = 0;
+				LoadRegA = 0;
+				AluSrcA = 0;
+				LoadRegB = 0;
+				AluSrcB = 1;
+				MemToReg = 0;
+				LoadAOut = 0;
+				LoadMDR = 0;
+				PCSrc = 0;
+				SEFct = SIGN_R;
+				AluFct = SUM;
+				next_state = DECODE;
+			end // WAITMEM32:
+			DECODE: begin 
+				PcWrite = 0;
+				IMemRead = 0;				
+				DMemRead = 0;
+				IrWrite = 0;
+				WriteReg = 0;
+				LoadRegA = 1;
+				AluSrcA = 0;
+				LoadRegB = 1;
+				AluSrcB = 3; //Extended + Shift2
+				MemToReg = 0;
+				LoadAOut = 1;
+				LoadMDR = 0;
+				PCSrc = 0;
+				SEFct = SIGN_SB;
+				AluFct = SUM;
+				next_state = FETCH;
+			end
+		endcase // state
+		
+		state_out = state;
+	end
+endmodule // controlUnit

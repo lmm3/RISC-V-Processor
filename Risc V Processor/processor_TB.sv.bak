@@ -1,0 +1,29 @@
+
+module processor_TB;
+	localparam CLKPERIOD = 10;
+	localparam CLKDELAY = CLKPERIOD /2;
+
+	logic clk;
+	logic reset;
+	logic [31:0] PcOut;
+	logic [63:0] AluResult;
+	logic [31:0] MemOut;
+
+	processor dut(
+		.clk(clk),
+		.reset(reset),
+		.PcOut(PcOut),
+		.AluResult(AluResult),
+		.MemOut(MemOut)
+	);
+
+	initial begin
+		clk = 1'b1;
+		reset = 1'b1;
+		#(CLKPERIOD)
+		reset = ~reset;
+	end
+
+	always #(CLKDELAY) clk = ~clk;
+
+endmodule // processor_TB

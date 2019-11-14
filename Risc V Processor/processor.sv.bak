@@ -1,0 +1,39 @@
+module processor(
+	input logic clk,
+	input logic reset,
+	output logic [31:0] PcOut,
+	output logic [63:0] AluResult,
+	output logic [31:0] MemOut);
+	logic [2:0] AluOp;
+
+	
+	controlUnit UC(
+		.clk(clk),
+		.reset(reset),
+		.PcWrite(PcWrite),
+		.MemRead(MemRead),
+		.AluOp(AluOp)
+		);
+
+	Memoria32 IstructionMemory(
+		.raddress(PcOut),
+		.Dataout(MemOut),
+		.Wr(MemRead)
+		);
+
+	Ula64 Alu(
+		.A({32'd0,PcOut}),
+		.B(64'd4),
+		.Seletor(AluOp),
+		.S(AluResult)
+		);
+
+	register PC(
+		.clk(clk),
+		.reset(reset),
+		.regWrite(PcWrite),
+		.DadoIn(AluResult[31:0]),
+		.DadoOut(PcOut)
+		);
+
+endmodule // processor
